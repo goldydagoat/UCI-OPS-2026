@@ -66,3 +66,21 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Arduino / ESP32 build artifacts
+build/
+*.hex
+*.bin
+*.elf
+
+# KiCAD temporary files
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*-save.kicad_pcb
+_saved-*/
+*.lck
+
+# macOS / System temp files
+.DS_Store
+Thumbs.db
